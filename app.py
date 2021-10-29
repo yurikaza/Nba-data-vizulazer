@@ -1,12 +1,8 @@
-import pprint
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from flask import Flask, redirect, url_for, render_template, request
-from selenium import webdriver
 from dotenv import load_dotenv
-
-import time
 import os
 import requests
 
