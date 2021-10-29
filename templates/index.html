@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/img/49f1f2dec054b6bac94940d0a1968787.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/scss/style.css">
+    <title>NBA player data visualization</title>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/static/img/49f1f2dec054b6bac94940d0a1968787.jpg" alt="" width="30" height="24">
+      </a>
+    </div>
+  </nav>
+
+  <div class="container mb-5 mt-5">
+    <div class="row">
+  <form action="/teams" method="post">
+    <div class="mb-3">
+      <label for="exampleInputTeam1" class="form-label">Team Name</label>
+      <p><input type="team" required name="team" class="form-control" id="exampleInputTeam1"></p>
+    </div>
+    <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
+  </form>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <h1 class="headline">
+           About
+        </h1>
+        <p class="text">
+          This is a real-time NBA player data visualization project. You can find all player's data by the team, such as Height, Weight, Jersey Number, Career Points, Career Assists, and Career Rebounds.
+        </p>
+        <h2>How to Search</h2>
+        <p>You have to type teams first name second name or full name like(Sacramento, Sacramento Kings, Kings)</p>
+        <h2>Who made this</h2>
+        <p>This project was made by me (Yusuf Mirza PIçakcı) you can contact me from below:</p>
+        <h1>Connect:</h1>
+    </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="//use.typekit.net/ftn5fet.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
